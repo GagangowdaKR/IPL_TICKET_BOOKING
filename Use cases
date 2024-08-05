@@ -1,0 +1,38 @@
+1.Main Page
+  User
+  Admin
+  IPL
+___________________________________________________________________________________________________________
+Admin
+1.login
+2.Admin Dashboard
+3.Admin register
+4.forgot password
+5.reset password
+6.create matches/venue(stadium)
+7.edit matches
+8.delete matches/venue
+9.view-Count of Attendees(total number of people)
+________________________________________________________________________________________________________________  
+User
+1.login
+2.forgot password
+3.reset password
+4.register
+5.User Dashboard:
+6.search ticket(location,match)(sub option - book ticket if available name,phone,numberOfTickets(subdivisions in seat type),ticket-id(ticket type))
+7.Booked_ticket_details
+8.Cancel Ticket
+9.list_of_all_matches_currently available
+_______________________________________________________________________________________________________________
+1.price(PAYMENT_METHOD)
+2.Audience Details
+___________________________________________________________________________________________________________________
+Additional use case
+1.create manage match button and manage venue inside create,delete,edit
+   
+   
+  
+   
+
+  
