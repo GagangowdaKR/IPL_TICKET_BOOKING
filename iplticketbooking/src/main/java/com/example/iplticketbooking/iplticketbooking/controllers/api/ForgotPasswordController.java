@@ -27,7 +27,7 @@ public class ForgotPasswordController {
     String OTP = (int) Math.floor(100000 + Math.random() * 9000000) + "";
     emailSenderService.sendEmail(
         email,
-        "OTP for IPL Booking App ",
+        "OTP for IPL Ticket Booking App ",
         "Your OTP is " + OTP);
     VerifyUser verifyUser = new VerifyUser();
     verifyUser.setEmail(email);

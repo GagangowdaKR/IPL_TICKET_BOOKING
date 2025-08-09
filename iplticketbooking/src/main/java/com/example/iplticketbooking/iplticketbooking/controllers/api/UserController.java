@@ -18,6 +18,7 @@ public class UserController {
 
   @Autowired
   private UserRepository userRepository;
+  // UserRepository obj = new UserRepository();
 
   @GetMapping(path = "/login")
   public Response login(

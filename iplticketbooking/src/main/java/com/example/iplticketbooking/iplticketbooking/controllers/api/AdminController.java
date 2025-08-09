@@ -26,7 +26,7 @@ public class AdminController {
     Iterable<Admin> iterator = adminRepository.findAll();
 
     for (Admin user : iterator) {
-      if (user.getUsername().equals(username) &&
+      if(user.getUsername().equals(username) &&
           user.getPassword().equals(password)) {
         Response response = new Response();
         response.message = user.getAadhar();
